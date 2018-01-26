@@ -1,0 +1,34 @@
+Le script Bash à créer
+
+Le but est de créer un script Bash qui fournit des statistiques sur l'utilisation des lettres dans une langue. Pour cela, vous allez devoir vous baser sur un fichier de dictionnaire contenant tous les mots de la langue française que vous trouverez ci-joint : dico.txt.
+Le fichier, tout en majuscules, contient un mot par ligne, comme ceci :
+ABAISSA
+ABAISSABLE
+ABAISSABLES
+ABAISSAI
+ABAISSAIENT
+[…]
+
+Mission n°1 : combien de fois est utilisée chaque lettre ?
+A partir de ce fichier (dico.txt) vous devez extraire le nombre de mots utilisant chaque lettre de l'alphabet de A à Z. Le script que vous allez créer (langstat.sh) prendra en paramètre le nom du fichier dictionnaire à analyser :
+./langstat.sh dico.txt
+Le résultat affiché dans la console devrait ressembler à ceci, de la lettre la plus utilisée à la moins utilisée: 
+ 278814 - E
+  229938 - A
+  219131 - I
+  210391 - R
+  207889 - S
+  179165 - N
+  176030 - T
+  158282 - O
+     [...]
+
+Cela signifie que la lettre E apparaît dans 278814 mots du dictionnaire, la lettre A dans 229938 mots, etc.
+Mission n°2 : un peu de créativité !
+Une fois que vous aurez réalisé la première mission, vous devrez créer une fonctionnalité supplémentaire dans votre script. Cette fonctionnalité pourra être activée par la présence d'un second paramètre que vous devez inventer :
+./langstat.sh dico.txt –second-parametre
+Soyez créatifs ! Le second paramètre peut simplement changer la façon dont sont affichées les données, ou peut fournir d'autres statistiques. 
+
+
+
+
